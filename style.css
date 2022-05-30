@@ -140,13 +140,21 @@ img{
     padding-left: 20%;
 }
 
-div.wrap-gallery{
+.gallery-plus-header{
     background-color: #ff6e00;
-    display: inline-block;
+    
     margin-top: 1000px;
     margin-left: 30%;
     margin-right: 30%;
     border-radius: 15px;
+}
+
+div.wrap-gallery{
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 div.gallery{
     
@@ -171,14 +179,38 @@ div.description{
     padding: 10px;
     text-align: center;
 }
-div.wrap-gallery h2{
+div.gallery-plus-header h2{
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 30px;
     font-family: sans-serif;
     text-align: center;
+    position: relative;
+    top: 20px;
 }
 
+div.aboutme h2{
+    
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+div.internship h2{
+    
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.aboutme .aboutme-info{
+    height: 400px;
+    overflow: scroll;
+}
 div.contact{
     background-color: #ff6e00;
     display: inline-block;
@@ -186,6 +218,45 @@ div.contact{
     margin-left: 30%;
     margin-right: 30%;
     border-radius: 15px;
+}
+
+
+div.internship{
+    background-color: #ff6e00;
+    margin-top: 1000px;
+    margin-left: 30%;
+    
+    border-radius: 15px;
+    width: 800px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#intern-app{
+     margin-top: 50px;
+     align-self: center;
+}
+.intern-text p{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: center;
+    margin: 15px;
+    align-self: center;
+    font-weight: bold;
+  
+}
+.intern-text a{
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 30%;
+    color: rgb(103, 60, 219);
+    font-weight: bold;
+   
 }
 .fa {
     padding: 20px;
